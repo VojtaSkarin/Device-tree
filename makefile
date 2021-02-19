@@ -1,2 +1,2 @@
 all:
-	g++ -std=c++17 -Wall -Wextra -Wpedantic -pedantic-errors -g main.cpp read.cpp create_tree.cpp change_tree.cpp interactive_change_property.cpp interactive_change_structure.cpp interactive_mode.cpp device.cpp led_panel.cpp door.cpp speaker.cpp card_reader.cpp device_group.cpp -o PROGRAM
+	g++ -std=c++17 -Wall -Wextra -Wpedantic -pedantic-errors -g main.cpp read.cpp create_tree.cpp change_tree.cpp interactive_change_property.cpp interactive_change_structure.cpp interactive_mode.cpp components/device.cpp components/led_panel.cpp components/door.cpp components/speaker.cpp components/card_reader.cpp components/device_group.cpp -o PROGRAM

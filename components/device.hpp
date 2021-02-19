@@ -6,8 +6,8 @@
 #include <sstream>
 #include <map>
 
-#include "property_readonly.hpp"
-#include "property.hpp"
+#include "../property_readonly.hpp"
+#include "../property.hpp"
 
 class DeviceGroup;
 

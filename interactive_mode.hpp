@@ -2,12 +2,12 @@
 
 #include <memory>
 
-#include "device.hpp"
-#include "led_panel.hpp"
-#include "door.hpp"
-#include "speaker.hpp"
-#include "card_reader.hpp"
-#include "device_group.hpp"
+#include "components/device.hpp"
+#include "components/led_panel.hpp"
+#include "components/door.hpp"
+#include "components/speaker.hpp"
+#include "components/card_reader.hpp"
+#include "components/device_group.hpp"
 
 #include "read.hpp"
 #include "interactive_change_property.hpp"

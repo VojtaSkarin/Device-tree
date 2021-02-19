@@ -12,9 +12,7 @@
 #include <functional>
 #include <set>
 
-#include "property.hpp"
-#include "property_readonly.hpp"
-#include "my_vector.hpp"
+#include "../my_vector.hpp"
 #include "device.hpp"
 
 class DeviceGroup : public Device {

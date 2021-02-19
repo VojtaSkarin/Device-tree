@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 
-#include "speaker.hpp"
+#include "components/speaker.hpp"
 
 int ReadInt();
 
