@@ -1,6 +1,6 @@
 #pragma once
 
-#include "interactive_mode.hpp"
+#include "interactive/interactive_mode.hpp"
 
 std::string RandomName( std::string && name );
 

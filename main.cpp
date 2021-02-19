@@ -7,7 +7,7 @@
 
 #include "create_tree.hpp"
 #include "change_tree.hpp"
-#include "interactive_mode.hpp"
+#include "interactive/interactive_mode.hpp"
 
 int main( void ) {
 	std::unique_ptr< Device > tree = CreateTree();
